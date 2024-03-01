@@ -1,0 +1,43 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<h1>
+    Hi you can write C# at HTML file
+</h1>
+
+@{
+    //int x = 2;
+    int x = 0;
+    int y = 3;
+}
+
+@DateTime.Now.ToLocalTime()
+
+@if(x > 0){
+    <h1 style="color:aqua"> X is larger than 0</h1>
+}else{
+    <h1 style="color:brown">X is not larger than 0</h1>
+}
+
+
+@* عشان اخليه يطلع القيمه احط @ *@
+@if(x > 0){
+    <h1 style="color:aqua"> X is @x</h1>
+}else{
+    <h1 style="color:brown">X is not larger than 0</h1>
+}
+
+
+
+@*Comment*@
+
+@if (x > 0)
+{
+    <h1 style="color:aqua"> X is @x</h1>
+}
+
+@for(int i = 0; i < @y; i++){
+    <li>@i</li>
+}

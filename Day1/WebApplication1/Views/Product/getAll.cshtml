@@ -1,0 +1,11 @@
+﻿<div style="display:flex">
+    @foreach (var item in Model)
+    {
+        <div style="border:solid red 5px">
+            <h1>@item.Name</h1>
+            <input type="text" value="@item.ID" />
+            <h3>@item.Price</h3>
+            <img src="\images\@item.Image" height="200px" />
+        </div>
+    }
+</div>
