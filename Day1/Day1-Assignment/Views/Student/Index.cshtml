@@ -1,0 +1,43 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<div style="display:flex;justify-content:space-evenly">
+    @foreach(var std in Model)
+    {
+         <div style="border:solid black 1px">
+            <center>
+                <img src="\Images\@std.image" alt="Alternate Text" height="250px" width="250px">
+                <h3>@std.Name</h3>
+                <p style="color:red">@std.Address</p>
+            </center>
+        </div>
+    }
+</div> 
+
+
+@* <center>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Picture</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var std in Model)
+            {
+                <tr>
+                    <td>@std.ID</td>
+                    <td>@std.Name</td>
+                    <td>@std.Address</td>
+                    <td><img src="\Images\@std.image" alt="Alternate Text" height="200px"></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</center>
+ *@
