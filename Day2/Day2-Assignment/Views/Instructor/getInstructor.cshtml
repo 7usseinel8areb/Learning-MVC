@@ -1,0 +1,82 @@
+﻿@model Instructor
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ITIEntities iTIEntities = new ITIEntities();
+    
+}
+<style>
+
+  .photo-container {
+    float: right; 
+    margin-left: 20px; 
+  }
+</style>
+
+
+
+<div class="photo-container">
+    <img src="\Images\@Model.Image" alt="Description of your photo" width="200">
+</div>
+
+<center>
+    <h1 style="color:red">Instructor Information</h1>
+</center>
+<table class="table table-bordered table-hover">
+    <tr>
+        <td>
+            ID
+        </td>
+        <td>
+            @Model.ID
+        </td>
+    </tr>
+    
+    <tr>
+        <td>
+            Name
+        </td>
+        <td>
+            @Model.Name
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            Department
+        </td>
+        <td>
+                @iTIEntities.Department.FirstOrDefault(i => i.ID == Model.Department_ID).Name
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            Department Id
+        </td>
+        <td>
+            @Model.Department_ID
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            Course
+        </td>
+        <td>
+                @iTIEntities.Course.FirstOrDefault(c => c.ID == Model.Course_ID).Name
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            Course Id
+        </td>
+        <td>
+                @Model.Course_ID
+        </td>
+    </tr>
+
+</table>
+

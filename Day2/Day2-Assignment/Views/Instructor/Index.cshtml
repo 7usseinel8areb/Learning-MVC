@@ -1,0 +1,35 @@
+﻿@model List<Instructor>
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ITIEntities ITIEntities = new ITIEntities();
+}
+
+
+
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Department</th>
+            <th>Salary</th>
+            <th>Address</th>
+            <th>Image</th>
+        </tr>
+    </thead>
+    <tbody>    
+        @foreach(var item in Model)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@ITIEntities.Department.FirstOrDefault(i => i.ID == @item.Department_ID).Name</td>
+                <td>@item.Salary</td>
+                <td>@item.Address</td>
+                <td><img src = "\Images\@item.Image" height = "100px"></td>
+            </tr>
+        }
+    </tbody>
+
+</table>

@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\100DayChallenge\\MVC\\Day2\\Day2-Assignment\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{756A370A-0038-4E85-9ADD-F9D919709A5E}|Day2-Assignment.csproj|c:\\100daychallenge\\mvc\\day2\\day2-assignment\\views\\instructor\\getinstructor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{756A370A-0038-4E85-9ADD-F9D919709A5E}|Day2-Assignment.csproj|solutionrelative:views\\instructor\\getinstructor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{756A370A-0038-4E85-9ADD-F9D919709A5E}|Day2-Assignment.csproj|c:\\100daychallenge\\mvc\\day2\\day2-assignment\\views\\instructor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{756A370A-0038-4E85-9ADD-F9D919709A5E}|Day2-Assignment.csproj|solutionrelative:views\\instructor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{756A370A-0038-4E85-9ADD-F9D919709A5E}|Day2-Assignment.csproj|c:\\100daychallenge\\mvc\\day2\\day2-assignment\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{756A370A-0038-4E85-9ADD-F9D919709A5E}|Day2-Assignment.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{756A370A-0038-4E85-9ADD-F9D919709A5E}|Day2-Assignment.csproj|c:\\100daychallenge\\mvc\\day2\\day2-assignment\\controllers\\instructorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{756A370A-0038-4E85-9ADD-F9D919709A5E}|Day2-Assignment.csproj|solutionrelative:controllers\\instructorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InstructorController.cs",
+              "DocumentMoniker": "C:\\100DayChallenge\\MVC\\Day2\\Day2-Assignment\\Controllers\\InstructorController.cs",
+              "RelativeDocumentMoniker": "Controllers\\InstructorController.cs",
+              "ToolTip": "C:\\100DayChallenge\\MVC\\Day2\\Day2-Assignment\\Controllers\\InstructorController.cs",
+              "RelativeToolTip": "Controllers\\InstructorController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T18:00:04.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "getInstructor.cshtml",
+              "DocumentMoniker": "C:\\100DayChallenge\\MVC\\Day2\\Day2-Assignment\\Views\\Instructor\\getInstructor.cshtml",
+              "RelativeDocumentMoniker": "Views\\Instructor\\getInstructor.cshtml",
+              "ToolTip": "C:\\100DayChallenge\\MVC\\Day2\\Day2-Assignment\\Views\\Instructor\\getInstructor.cshtml",
+              "RelativeToolTip": "Views\\Instructor\\getInstructor.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAwBYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-06T18:06:34.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\100DayChallenge\\MVC\\Day2\\Day2-Assignment\\Views\\Instructor\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Instructor\\Index.cshtml",
+              "ToolTip": "C:\\100DayChallenge\\MVC\\Day2\\Day2-Assignment\\Views\\Instructor\\Index.cshtml",
+              "RelativeToolTip": "Views\\Instructor\\Index.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-06T18:06:05.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\100DayChallenge\\MVC\\Day2\\Day2-Assignment\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\100DayChallenge\\MVC\\Day2\\Day2-Assignment\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-06T17:51:52.324Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
