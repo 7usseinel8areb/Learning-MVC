@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\100DayChallenge\\MVC\\Day3\\WebApplication3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{60F044A8-9D4D-4071-93FB-7D385F9FD107}|WebApplication3.csproj|c:\\100daychallenge\\mvc\\day3\\webapplication3\\controllers\\statecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60F044A8-9D4D-4071-93FB-7D385F9FD107}|WebApplication3.csproj|solutionrelative:controllers\\statecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60F044A8-9D4D-4071-93FB-7D385F9FD107}|WebApplication3.csproj|c:\\100daychallenge\\mvc\\day3\\webapplication3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60F044A8-9D4D-4071-93FB-7D385F9FD107}|WebApplication3.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60F044A8-9D4D-4071-93FB-7D385F9FD107}|WebApplication3.csproj|c:\\100daychallenge\\mvc\\day3\\webapplication3\\views\\passdata\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{60F044A8-9D4D-4071-93FB-7D385F9FD107}|WebApplication3.csproj|solutionrelative:views\\passdata\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60F044A8-9D4D-4071-93FB-7D385F9FD107}|WebApplication3.csproj|c:\\100daychallenge\\mvc\\day3\\webapplication3\\views\\passdata\\showstudentdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{60F044A8-9D4D-4071-93FB-7D385F9FD107}|WebApplication3.csproj|solutionrelative:views\\passdata\\showstudentdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60F044A8-9D4D-4071-93FB-7D385F9FD107}|WebApplication3.csproj|c:\\100daychallenge\\mvc\\day3\\webapplication3\\controllers\\passdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60F044A8-9D4D-4071-93FB-7D385F9FD107}|WebApplication3.csproj|solutionrelative:controllers\\passdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60F044A8-9D4D-4071-93FB-7D385F9FD107}|WebApplication3.csproj|c:\\100daychallenge\\mvc\\day3\\webapplication3\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60F044A8-9D4D-4071-93FB-7D385F9FD107}|WebApplication3.csproj|solutionrelative:controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StateController.cs",
+              "DocumentMoniker": "C:\\100DayChallenge\\MVC\\Day3\\WebApplication3\\Controllers\\StateController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StateController.cs",
+              "ToolTip": "C:\\100DayChallenge\\MVC\\Day3\\WebApplication3\\Controllers\\StateController.cs",
+              "RelativeToolTip": "Controllers\\StateController.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAIwFwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T22:04:48.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\100DayChallenge\\MVC\\Day3\\WebApplication3\\Views\\PassData\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\PassData\\Index.cshtml",
+              "ToolTip": "C:\\100DayChallenge\\MVC\\Day3\\WebApplication3\\Views\\PassData\\Index.cshtml",
+              "RelativeToolTip": "Views\\PassData\\Index.cshtml",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAIwBMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-09T01:24:50.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PassDataController.cs",
+              "DocumentMoniker": "C:\\100DayChallenge\\MVC\\Day3\\WebApplication3\\Controllers\\PassDataController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PassDataController.cs",
+              "ToolTip": "C:\\100DayChallenge\\MVC\\Day3\\WebApplication3\\Controllers\\PassDataController.cs",
+              "RelativeToolTip": "Controllers\\PassDataController.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAYwD4AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-09T01:20:20.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ShowStudentDetails.cshtml",
+              "DocumentMoniker": "C:\\100DayChallenge\\MVC\\Day3\\WebApplication3\\Views\\PassData\\ShowStudentDetails.cshtml",
+              "RelativeDocumentMoniker": "Views\\PassData\\ShowStudentDetails.cshtml",
+              "ToolTip": "C:\\100DayChallenge\\MVC\\Day3\\WebApplication3\\Views\\PassData\\ShowStudentDetails.cshtml",
+              "RelativeToolTip": "Views\\PassData\\ShowStudentDetails.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-09T17:21:16.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "C:\\100DayChallenge\\MVC\\Day3\\WebApplication3\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DepartmentController.cs",
+              "ToolTip": "C:\\100DayChallenge\\MVC\\Day3\\WebApplication3\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "Controllers\\DepartmentController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T15:30:43.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\100DayChallenge\\MVC\\Day3\\WebApplication3\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\100DayChallenge\\MVC\\Day3\\WebApplication3\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T23:12:58.443Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
