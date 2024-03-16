@@ -1,0 +1,34 @@
+﻿@model List<InstructorWithDepartmentName>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Salary</th>
+            <th>Department</th>
+            <th>Image</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in Model)
+        {
+            <tr>
+               <td>@item.Name</td>
+               <td>@item.Address</td>
+               <td>@item.Salary</td>
+               <td>@item.DepartmentName</td>
+               <td>@item.Image</td>
+               <td><a href="\Instructor\Edit\@item.ID">Edit</a></td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a href="\Instructor\Add" class="btn btn-success">Add New Instructor</a>

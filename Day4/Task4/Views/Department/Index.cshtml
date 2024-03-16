@@ -1,0 +1,23 @@
+﻿@model List<Department>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+<table class="table table-bordered table-hover">
+    <tr>
+        <th>Department</th>
+        <th>Manager Name</th>
+    </tr>
+    @foreach(var item in Model)
+    {
+        <tr>
+            <td>@item.Name</td>
+            <td>@item.Manager</td>
+        </tr>
+    }
+</table>
+@*Link to add new department*@
+<a href="\Department\Add" class="btn btn-alert-success">Add New Department</a>
