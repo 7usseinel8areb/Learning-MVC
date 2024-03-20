@@ -1,0 +1,13 @@
+﻿@model Department
+
+
+@Html.Label("Name")
+<br />
+
+@* <input type="text" name="Name" id="Name" value="@Model.Name" /> *@
+<!--Loosly Type Helper-->
+@Html.TextBox("Name","",new {style ="color:red"})
+
+<!--Strong Type Helper-->
+@Html.TextBoxFor(d => d.Name)<!--Based on model search value -->
+
