@@ -1,0 +1,65 @@
+﻿@model Trainee
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    SelectList deptList;
+    if (Model != null)
+    {
+        deptList = new SelectList(ViewBag.AllDepartments, "ID", "Name", Model.Department);
+    }
+    else
+    {
+        deptList = new SelectList(ViewBag.AllDepartments, "ID", "Name");
+    }
+
+}
+@Html.DropDownListFor(s => s.Department_ID, deptList)
+
+<form action="\Student\SaveEdit\@Model.ID" method="post">
+    <div>
+        <label></label>
+        <input type="text" name="Name" value="@Model.Name" class="form-control" />
+    </div>
+
+    <div>
+        <label>Name: </label>
+        <input type="type" name="Image" value="@Model.Image" class="form-control" />
+    </div>
+    
+    <div>
+        <label>Address: </label>
+        <input type="type" name="Address" value="@Model.Address" class="form-control" />
+    </div>
+    
+    <div>
+        <label>GPA: </label>
+        <input type="type" name="Grade" value="@Model.Grade" class="form-control" />
+    </div>
+    
+    <div>
+        <label>Department</label>
+        @* <input type="type" name="Department_ID" value="@Model.Department_ID" class="form-control" /> *@
+        <select name="Department_ID" id="Department_ID" class="form-control">
+            @foreach(var item in ViewBag.AllDepartments)
+            {
+                if(item.ID == Model.Department_ID)
+                {
+                    //عشان اثبت اسم القسم بتاع الطالب 
+                    <option value="@item.ID" selected>@item.Name</option>
+                }
+                else
+                {
+                    <option value="@item.ID">@item.Name</option>
+                }
+            }
+        </select>
+        <select asp-for="Department_ID" asp-items="deptList">
+            <option></option>
+        </select>
+    </div>
+
+    <div>
+        <input type="submit" class="btn btn-success"/>
+    </div>
+</form>

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\100DayChallenge\\MVC\\Day6\\WebAppliction6\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{40802EBC-8112-4492-8CD4-0C56D8BD798D}|WebApplication4.csproj|c:\\100daychallenge\\mvc\\day6\\webappliction6\\views\\department\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40802EBC-8112-4492-8CD4-0C56D8BD798D}|WebApplication4.csproj|solutionrelative:views\\department\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\100DayChallenge\\MVC\\Day6\\WebAppliction6\\Views\\Department\\Add.cshtml",
+              "RelativeDocumentMoniker": "Views\\Department\\Add.cshtml",
+              "ToolTip": "C:\\100DayChallenge\\MVC\\Day6\\WebAppliction6\\Views\\Department\\Add.cshtml",
+              "RelativeToolTip": "Views\\Department\\Add.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-24T14:31:55.17Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

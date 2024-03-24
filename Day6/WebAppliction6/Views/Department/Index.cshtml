@@ -1,0 +1,29 @@
+﻿@model List<Department>
+@* @{
+    Layout = "_MyNewLayout";
+}
+@section FooterAdd{
+    <h1>Hello World</h1>
+}
+@section MenuAdd{
+    <h1>Hi there</h1>
+}
+@section HeadAdd{
+    <h1>Meao Meao</h1>
+}
+ *@
+<table class="table table-bordered table-hover">
+    <tr>
+        <th>Department</th>
+        <th>Manager Name</th>
+    </tr>
+    @foreach(var item in Model)
+    {
+        <tr>
+            <td>@item.Name</td>
+            <td>@item.Manager</td>
+        </tr>
+    }
+</table>
+@*Link to add new department*@
+<a href="\Department\Add" class="btn btn-alert-success">Add New Department</a>

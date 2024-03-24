@@ -1,0 +1,32 @@
+﻿@model Department
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "_Layout";
+}
+
+
+<form action="\Department\SaveAdd" method="get">
+    <div asp-validation-summary="All"></div>
+    <div>
+
+        <label asp-for="Name"></label>
+        <input type="text" asp-for="Name" value="@Model.Name" class="form-control"/>@*will be sent at the query string*@
+        <span class="text-danger" asp-validation-for="Name"></span>
+    </div>
+
+    <div>
+        <label for="Manager">Manager Name</label>
+        <input type="text" name="Manager" value="@Model.Manager" class="form-control"/>@*will be sent at the query string*@
+    </div>
+
+    <input type="submit" value="Add" class="btn btn-success"/>
+</form>
+<br />
+
+@section Scripts{
+    @* <script src="~/lib/jquery/dist/jquery.js"></script> *@
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}
